@@ -1,0 +1,72 @@
+/* COMENTÁRIO
+h1{
+    color: blue;
+}
+
+p{
+    color: darkblue;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+div{
+    background-color: lightblue;
+    border-color: blue;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+span{
+    background-color: yellow;
+}*/
+
+
+h1{
+    margin:auto;
+    font-family: 'Corinthia', cursive;
+    font-size: 3em;
+}
+
+body{
+    text-align: center;
+}
+
+table{
+    border-spacing: 20px;
+    margin: auto;
+}
+
+
+.pic{
+    height: 200px;
+    width: 100px;
+    margin: auto;
+    padding: auto;
+}
+
+#one{
+    background-color: #072ac8;
+
+}
+
+#two{
+    background-color: #1e96fc;
+
+}
+
+#three{
+    background-color: #a2d6f9;
+
+}
+
+#four{
+    background-color: #fcf300;
+
+}
+
+#five{
+    background-color: #ffc600   ;
+
+}

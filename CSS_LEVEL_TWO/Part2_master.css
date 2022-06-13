@@ -1,0 +1,41 @@
+h1{
+    border: 4px solid blue;
+    margin:auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    text-align: center;
+}
+
+
+#c1{
+    background-color: #264653;
+    margin: 20px;
+}
+
+#c2{
+    background-color: #2a9d8f;
+}
+
+#c3{
+    background-color: #e9c46a;
+}
+
+#c4{
+    background-color: #f4a261;
+}
+
+#c5{
+    background-color: #e76f51;
+}
+
+.pic{
+    height: 200px;
+    width: 100px;
+    padding: 20px;
+}
+table{
+    margin: auto;
+    border-spacing: 20px
+}

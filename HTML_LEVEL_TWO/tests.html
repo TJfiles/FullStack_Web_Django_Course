@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+  <form action="https://www.facebook.com" method="get">
+    <h1>LOG IN</h1>
+    <h2>Please enter your e-mail and password</h2>
+    <p>(Bad way of using labels)</p>
+<!--    BAD WAY OF USING LABELS-->
+    <label>
+      Email:
+      <input type="email" name="useremail" value="Email here">
+    </label>
+    <label>
+      Password:
+      <input type="password" name="password" value="" placeholder="Password please" required>
+    </label>
+    <input type="submit" name="" value="Submit">
+
+
+<!--      GOOD WAY OF UYSING LABELS-->
+    <h2>Log in!</h2>
+    <p>(Good way of using labels)</p>
+    <label for="usuario">Enter email:</label>
+    <input id="usuario" type="email" name="usuario" placeholder="Email" required>
+
+    <label for="senha">Enter password:</label>
+    <input id="senha" type="password" name="senha" placeholder="Password" required>
+
+
+
+
+
+
+    <h1>Choose color!</h1>
+    <h2>Click on button</h2>
+    <input type="color">
+
+<!--    RADIO BUTTONS-->
+    <h1>Hotel Feedback Form</h1>
+    <p>(Using radio buttons)</p>
+    <h3>Are you from inside the US? Or outside the US?</h3>
+
+<!--    GIVE THE RADIO INPUTS THE SAME NAME IN ORDER TO DISABLE MULTIPLE SELECTION-->
+    <label for="inusa">Inside:</label>
+    <input id="inusa" type="radio" name="loc" value="inside">
+
+    <label for="outusa">Outside:</label>
+    <input id="outusa" type="radio" name="loc" value="outside">
+
+    <h3>How was your service?</h3>
+
+    <select name="stars">
+      <option value="5">5 STARS</option>
+      <option value="4">4 STARS</option>
+      <option value="3">3 STARS</option>
+      <option value="2">2 STARS</option>
+      <option value="1">1 STAR</option>
+    </select>
+
+    <h3>Any other feedback?</h3>
+    <p>(textarea)</p>
+
+    <textarea name="feedback" cols="30" rows="10"></textarea>
+
+    <input type="submit" name="" value="Submit">
+  </form>
+</body>
+</html>

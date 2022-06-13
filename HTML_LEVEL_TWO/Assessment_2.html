@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment HTML</title>
+</head>
+<body>
+  <h1>Course Sign Up Page</h1>
+  <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+  <form method="get">
+<!--    NAME AND SURNAME-->
+    <div>
+    <label for="name">First Name:</label>
+    <input type="text" name="Name" placeholder="First Name" id="name" required>
+
+    <label for="surname">Last Name:</label>
+    <input type="text" name="Surname" placeholder="Last Name" id="surname" required>
+    </div>
+
+    <p></p>
+
+<!--    EMAIL AND PASSWORD-->
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="name@email.com" id="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required>
+    </div>
+
+    <p></p>
+
+<!--    OVER 18 RADIO BUTTON-->
+    <div>
+      <p>Are you over the age of 18?</p>
+      <label for="over18">Yes:</label>
+      <input type="radio" name="age" id="over18" value="over18">
+
+      <label for="under18">No:</label>
+      <input type="radio" name="age" id="under18" value="under18">
+    </div>
+
+    <p></p>
+
+<!--    PAYMENT SELECT-->
+    <div>
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select name="payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">PayPal</option>
+      </select>
+    </div>
+    <p></p>
+    <input type="submit"  value="Submit">
+
+  </form>
+</body>
+</html>

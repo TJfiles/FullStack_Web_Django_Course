@@ -1,0 +1,21 @@
+body{
+    background-color: #b7e4c7;
+}
+
+.navbar{
+    background-color: #081c15;
+}
+
+
+.jumbotron{
+    background-color: #40916c;
+    color: #081c15;
+}
+
+.form-control{
+    width: 200px;
+}
+
+legend{
+    width: 250px;
+}

@@ -1,0 +1,265 @@
+.caixaTextoDashboard{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: dashed;
+    border-bottom-width: 0.5px;
+    color: #34bfa3;
+    font-size: 1.3rem;
+    width: 110px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.customStyle .active{
+    color: #eeeffc !important;
+}
+
+.text-captalized{
+    text-transform: capitalize;
+}
+
+.customStyle .active{
+    color: #eeeffc !important;
+}
+
+.caixaTextoDashboard:focus{
+    outline: none;
+}
+
+.textoDesabilitadoLancamentoFrequencia{
+    text-decoration:line-through;
+    color: #c1c1c1;
+}
+
+.font10{
+    font-size: 10px;
+    margin: 0;
+}
+.font11 {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.59);
+    margin: 0;
+}
+
+.font12 {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.bordered-ckeckbox{
+    transition-duration: 0.4s;
+    border: 1px solid #E8E8F2;
+    border-radius: 8px;
+    padding-top: 13px;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.bordered-ckeckbox:hover{
+    background-color: #E8E8F2;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.chartGraficoBarra {
+
+width: 100%;
+height: 300px;
+
+}
+
+.chartGraficoPizza {
+
+    width: 100%;
+    height: 250px;
+
+}
+
+.nav-dashboard {
+}
+
+
+
+.nav-dashboard .nav-dashboard-item{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.link-home{
+    transition-duration: 1s;
+    border-radius: 2px;
+
+}
+.link-home:hover{
+
+    background-color: #f6f6f6;
+
+}
+
+.back-blue{
+
+    background-color: #2BB7FC !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+    box-shadow: 2px 2px 6px rgba( 0, 0, 0, 0.3 ) !important;
+    transition-duration: 0.7s !important;
+
+}
+.back-blue:hover {
+
+    background-color: #607ce0 !important;
+    box-shadow: 2px 2px 8px rgba( 0, 0, 0, 0.3 ) !important;
+}
+
+.chartjs-render-monitor{
+    height: 140px !important;
+    width: 140px !important;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-dashboard .nav-dashboard-item{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .kt-widget16__date{
+        font-size: 0.9rem !important;
+    }
+
+    .chartjs-render-monitor {
+        height: 120px !important;
+        width: 120px !important;
+    }
+
+    .kt-widget16 .kt-widget16__items .kt-widget16__item .kt-widget16__price {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-dashboard .nav-dashboard-item {
+        margin-right: 1px;
+        font-size: 11px;
+    }
+
+    .chartjs-render-monitor {
+        height: 120px !important;
+        width: 120px !important;
+    }
+
+    .kt-widget16__date{
+        font-size: 0.8rem !important;
+    }
+
+    .kt-widget16 .kt-widget16__items .kt-widget16__item .kt-widget16__price {
+        font-size: 0.8rem !important;
+    }
+    .tabelaDre{
+        font-size: 10px !important;
+    }
+}
+
+
+
+/* width */
+/*ScrollBar*/
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.38);
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: rgba(136, 136, 136, 0.42);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+    background: rgb(164, 164, 164);
+
+}
+
+
+/*notificacoes/ Alertas do sistema*/
+
+
+.totAlertas{
+    font-weight: bold;
+    display: inline-block;
+    width: 49%;
+    font-size: 17px;
+}
+.notificacaoDetalhes{
+    display: inline-block;
+    width: 49%;
+    font-size: 15px;
+    text-align: right;
+}
+
+.notificacaoList{
+    margin-bottom: 20px;
+}
+.notificacaoItens{
+
+}
+
+
+.colNotificacaoItem{
+
+}
+
+.notificacaoTitle{
+    height: 50px;
+}
+.notificacaoItem{
+    display: inline-block;
+    background-color: #3cb7fa;
+    color: white;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 20px;
+    width: 100%;
+    height: 125px;
+
+    /*margin-right: 20px;*/
+
+    border-radius: 2px;
+    font-weight: 400;
+
+    box-shadow: 2px 2px 6px rgba( 0, 0, 0, 0.3 );
+    cursor: pointer;
+
+    transition-duration: 0.8s;
+}
+
+.notificacaoItemSelected{
+    background-color: #465ab7;
+}
+
+
+.notificacaoItem:hover{
+    background-color: #465ab7;
+}
+
+.notificacaoItem p{
+   font-size: 16px;
+
+}

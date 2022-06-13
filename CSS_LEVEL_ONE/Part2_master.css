@@ -1,0 +1,19 @@
+body{
+    background: url(https://www.state.gov/wp-content/uploads/2018/11/Norway-2560x1328.jpg);
+}
+
+div{
+    background: blue;
+    border-color:red;
+    border-width: 3px;
+    border-style: double;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background: purple;
+    color:black;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family: 'Orelega One', cursive;
+    color: #f1faee;
+    background-color: #264653;
+    border: 60px solid #2a9d8f;
+    border-top: none;
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+div label{
+    margin-bottom: 2px;
+}
+div input{
+    font-family: 'Orelega One', cursive;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+#Button{
+    font-family: 'Orelega One', cursive;
+    color: black;
+    font-wight: bold;
+    font-size: 20px;
+    text-align: center;
+    background: #f4a261;
+    height: 80px;
+    width:  150px;
+    border-radius: 20px;
+    border-color: #ffc8dd;
+    margin-bottom: 10px;
+}
